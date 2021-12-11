@@ -25,6 +25,12 @@ function Monsters() {
   const [userInput, setUserInput] = useState("");
 
   // 데이터 로딩
+  useEffect(() => {
+    effect;
+    return () => {
+      cleanup;
+    };
+  }, [input]);
 
   // SearchBox 에 props로 넘겨줄 handleChange 메소드 정의
 
