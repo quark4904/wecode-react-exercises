@@ -7,6 +7,7 @@ function SearchBox(props) {
       className="search"
       type="search"
       placeholder="Search..."
+      name="username"
       onChange={props.handleChange}
     />
   );

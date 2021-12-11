@@ -10,11 +10,10 @@ import "./CardList.scss";
 ***********************************************************/
 
 function CardList({ monsters }) {
-  console.log(monsters);
   return (
     <div className="cardList">
       {monsters.map((data) => (
-        <Card id={data.id} username={data.username} email={data.email} />
+        <Card id={data.id} username={data.name} email={data.email} />
       ))}
     </div>
   );
